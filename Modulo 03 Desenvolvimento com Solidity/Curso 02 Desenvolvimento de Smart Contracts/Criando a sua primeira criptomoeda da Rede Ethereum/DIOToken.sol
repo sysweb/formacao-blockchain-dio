@@ -19,9 +19,9 @@ interface IERC20{
 
 contract DIOToken is IERC20{
 
-    string public constant name = "DIO Token";
-    string public constant symbol = "DIO";
-    uint8 public constant decimals = 18;
+    string public constant name = "DIO TokenW";
+    string public constant symbol = "DIOW";
+    uint8 public constant decimals = 16;
 
     mapping (address => uint256) balances;
 
